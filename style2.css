@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+}
+.subject{
+    background-color: rgb(43, 43, 39);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 60px;   
+}
+/* position sticky stick someone to particular positioin  */

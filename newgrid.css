@@ -1,0 +1,18 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,100px));
+    /* for responsive  */
+    /* border: 2px solid red; */
+    /* display: flex; */
+
+
+}
+.child{
+    min-width: 50px ;
+    max-width: 100px;
+    min-height: 50px;
+    max-height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+   
+}
